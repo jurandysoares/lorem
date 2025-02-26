@@ -1,0 +1,37 @@
+    1  clear
+    2  apt
+    3  apt search mkdocs
+    4  apt update
+    5  sudo apt update
+    6  apt search mkdocs
+    7  pip3
+    8  mkdocs
+    9  pip3 install mkdocs
+   10  mkdocs
+   11  mkdocs new .
+   12  touch docs/sobre.md
+   13  touch docs/winget.md
+   14  touch docs/apt.md
+   15  touch docs/mkdocs.md
+   16  mkdocs gh-deploy
+   17  pip3 install mkdocs-material
+   18  mkdocs gh-deploy
+   19  mkdocs serve
+   20  cowsay
+   21  sudo apt install -y cowsay
+   22  cowsay "Bom dia!"
+   23  /usr/games/cowsay "Bom dia!"
+   24  /usr/games/cowsay -f koala  "Bom dia!"
+   25  /usr/games/cowsay -l
+   26  sudo apt install typespeed
+   27  typespeed
+   28  /usr/games/typespeed
+   29  git status
+   30  pip3 >> docs/pip3.md 
+   31  apt >> docs/apt.md
+   32  mkdocs >> docs/mkdocs.md
+   33  mkdir docs/mkdocs
+   34  mv -v docs/mkdocs.md docs/mkdocs/index.md
+   35  mkdir historico
+   36  history 
+   37  history > historico/historico-2025-02-26.txt
