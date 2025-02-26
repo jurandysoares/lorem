@@ -1,0 +1,6 @@
+site_name: Site de Fulano de Tal
+site_author: Fulano de Tal
+
+theme: 
+  name: material
+  language: pt
