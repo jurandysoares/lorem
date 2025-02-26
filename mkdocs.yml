@@ -2,5 +2,7 @@ site_name: Site de Fulano de Tal
 site_author: Fulano de Tal
 
 theme: 
-  name: material
+  name: readthedocs
+  # name: material
+  # name: mkdocs
   language: pt
