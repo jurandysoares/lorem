@@ -45,3 +45,45 @@ As seguintes opções estão disponíveis:
 
 Mais tópicos de ajuda podem ser encontrados em: https://aka.ms/winget-command-help
 ```
+
+## Exemplos
+
+Exempo de 26/02/2025:
+
+```
+  Id CommandLine                                                                                      
+  -- -----------                                                                                      
+   1 winget                                                                                           
+   2 clear                                                                                            
+   3 winget list                                                                                      
+   4 winget list *Code*                                                                               
+   5 winget list Code                                                                                 
+   6 cler                                                                                             
+   7 clear                                                                                            
+   8 winget list | sls gimp
+   9 winget list | sls code
+  10 winget search gimp                                                                         
+  11 winget list | sls google
+  12 winget install --id gimp.gimp --source winget
+  13 winget | clip                                                    
+  14 history                                                                                    
+  15 winget | clip
+```
+
+Instalação de vários via comandos do PowerShell:
+
+```powershell
+$pacotes = @(
+             "Microsoft.VisualStudioCode",
+             "Gimp.Gimp",
+             "Git.Git",
+             "Python.Python.3.13",
+             "Google.Chrome",
+             )
+
+ForEach ($pac in $pacotes) {
+    winget install --id $pac
+}
+```
+
+
