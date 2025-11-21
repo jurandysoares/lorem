@@ -1,0 +1,17 @@
+site_name: Lorem
+site_author: Jurandy Soares
+
+theme:
+  name: material
+  language: pt
+
+plugins:
+  - mermaid2
+
+# Apesar de parecer trivial, é importante compreender o formato YML ou YAML
+# Visite: https://yaml.org/
+# Pesquise vídeos do YouTube: https://www.youtube.com/results?search_query=yaml
+# Leia: https://www.redhat.com/pt-br/topics/automation/what-is-yaml
+# Se você conhece estruturas de dados simples e compostas, fica mais fácil.
+# Básico: int, float, list, dict e date
+# Use um assistente de IA para explorar mais.
